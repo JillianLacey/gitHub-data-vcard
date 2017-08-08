@@ -8,10 +8,6 @@ req.send();
 function reqListener() {
     let data = JSON.parse(this.responseText);
 
-    // let li = "";
-    // let newObject = data.results;
-
-    // for (let i = 0; i < newArray.length; i += 1) {
 
     itemContainer.innerHTML =
         `<div class="mainTitle">
