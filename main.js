@@ -15,7 +15,7 @@ function reqListener() {
 
     itemContainer.innerHTML =
         `<div class="mainTitle">
-        <h1>${data.name}</h1>
+        <h1 class="nameTitle">${data.name}</h1>
         </div>
 
      <div class="container">
@@ -29,7 +29,7 @@ function reqListener() {
             </div>
 
             <div class="content-2">
-            <h2>The Story</h2>
+            <h2 class="story-h2">The Story</h2>
             <p class="vertical-line">${data.bio}</p>
             </div>
 
@@ -38,7 +38,6 @@ function reqListener() {
             </div>
     </div> 
         `
-
     return itemContainer;
 }
 

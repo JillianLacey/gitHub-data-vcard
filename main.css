@@ -1,29 +1,30 @@
 body {
-    font-family: 'Rokkitt', serif;
+    font-family: 'Josefin Slab', serif;
     background-color: #f3f3f3;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin: 20px 100px;
 }
 
 .mainTitle {
     position: relative;
     padding: 8px 8px 32px 8px;
     background: black;
-    height: 90px;
 }
 
-h1 {
+.nameTitle {
     color: white;
     text-align: center;
-    font-weight: 100;
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 h2 {
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .mainTitle:after {
@@ -46,9 +47,10 @@ p {
 }
 
 img {
-    height: 110px;
     width: 110px;
+    height: 110px;
     border-radius: 50%;
+    margin: 60px 150px 0 0;
 }
 
 .greenFont {
@@ -73,18 +75,19 @@ a:active {
 }
 
 .content {
-    width: 250px;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 
 .content-2 {
-    width: 500px;
+    width: 400px;
     line-height: 1.7rem;
 }
 
 .vertical-line {
     border-left: 2px solid lightgray;
-    /* height: 30px; */
-    /* padding-left: 30px; */
-    justify-content: center;
+    padding-left: 30px;
+}
+
+.story-h2 {
+    padding-left: 30px;
 }
